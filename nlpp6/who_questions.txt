@@ -1,0 +1,15 @@
+>who is Linkin Park?
+1
+<Linkin Park is an American rock band from Agoura Hills California.
+>who is Jay-Z?
+1
+<Shawn Corey Carter known professionally as Jay Z is an American rapper entrepreneur songwriter and record producer.
+>who sang Hotel California?
+1
+<Eagles sang Hotel California.
+>who wrote The Da Vinci Code?
+1
+<Dan Brown wrote The Da Vinci Code.
+>who wrote The Fault in Our Stars?
+1
+<John Green wrote The Fault in Our Stars.

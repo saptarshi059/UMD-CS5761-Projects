@@ -1,0 +1,48 @@
+akka:~/Desktop/nlpp2% python Ngram_Sentence_Generator.py 1 10 696.txt 1026-0.txt 2148-0.txt 14249.txt 20912.txt 38446.txt pg11323.txt
+This program generates random sentences based on an Ngram model. CS 5761 by SAPTARSHI SENGUPTA.
+
+Command line settings :  Ngram_Sentence_Generator.py 1 10
+Unigram Model Sentences:
+
+1 : ocean sympathise rang slumming moon fraction plans ceremony sweating laden allus minded chiseled formidable railing sleuth masculine edit detention drew sonne eying succinctly dishonour xxvi monotheistic unblemished conservative preservation philosophies ceasing revoloution poshs solicit plankings caliph stiff economic opere cork sylphs melts commercial negative sixpence unsubdued circle universally human biographer limitations compartments withstand compels conservating decided stuns .
+2 : cudgel heretofore piecemeal breadth acknowledgments similes reckon sphynxes misconduct blown gained gripe battery clasp bullying diplomatic asked eyeing dans parley twigs calmest tying pew extinguish energy absences molest encouragingly confederate emerging contained roaming unutterable reviews chintz problematical atr grinding table ringers advances commodious centered storms 1903 hilarity forbids pottery vexed slower folds shaft .
+3 : welcome professions else conceal incumbrance 900 soberly jeopardize accomplishments heedlessness .
+4 : exchanging prigging trustingly homines demented whipping fancying casting reflectively displease search eleonora .
+5 : valjean ferriri depreciate valleys abandon aught keel nourished remarking solomon luxuriantly fooling purged rumble daimler difference aimed devastation upbraiding privileged wonst fides registered cope pawings turbans meek 22 reflectively thou simple organise hopped appear vase insupportable limitless .
+6 : wars advent mount goods pyrrhonism confer unhoped blanc delude lockanbar corps dapper compare embarrassments commensurate aggravated eulogium utmost gipsy exert involved protested statement region indian condemned comb dwelling cumae withheld guessed skipper troisi originated restful consulted squared temptations trade huskily asunder uplift millionaires facer steer meditates furs horrible clericalism warms store burglars waver .
+7 : authentically fisherman predominant defeat sensation isolate vol blurted latest lightness alike habituate caste unshakable linen injustice draws addicted east unsuited vitriol yer egypt knitting prognostic casks beginning ban sharpen thenceforth brushwood oppression dodging canticle brien vagary ipsa articulate virtually copyist hasten distemper crowned surer slippery .
+8 : reconciling involves patroness constitution .
+9 : pleasing coming_ destitute tarquin libellous barbarity overpowering melbourne mouth intricacies aversion groves frying contradicting 29 faintly shamefully .
+10 : detection squalidness awoke productions contrary devastations violation confirm pronunciation inherent behaviour flap expatiate overture adventurousness shade ?
+akka:~/Desktop/nlpp2% python Ngram_Sentence_Generator.py 2 10 696.txt 1026-0.txt 2148-0.txt 14249.txt 20912.txt 38446.txt pg11323.txt
+This program generates random sentences based on an Ngram model. CS 5761 by SAPTARSHI SENGUPTA.
+
+Command line settings :  Ngram_Sentence_Generator.py 2 10
+Bigram Model Sentences:
+
+1 : climb a man , he could i do not , i should have an end for a man , but , and , and that might otherwise .
+2 : of rendering the present in the second , and i should be the other has now , and , to me to my own heart of my own heart of the most essential in a man .
+3 : person .
+4 : , finding that his mind was not to my life was in the highest and , and a few men in the book of his mind .
+5 : wither the very well , i had been for the most flagitious author of an hour , that was , i will be in the most perfect health and , i had been much of my life , i would probably , i have been for the same time that was , and had no ; i shall ever in a man .
+6 : enough to the rest .
+7 : offence , and that means by no previous experience of my situation .
+8 : and the same man .
+9 : . there is a few men , i was able to be a few days of mr .
+10 : sort of her the most intolerable than his own .
+akka:~/Desktop/nlpp2% python Ngram_Sentence_Generator.py 3 10 14249.txt 20912.txt 38446.txt
+This program generates random sentences based on an Ngram model. CS 5761 by SAPTARSHI SENGUPTA.
+
+Command line settings :  Ngram_Sentence_Generator.py 3 10
+Unigram Model Sentences:
+
+1 : it in practice as are not that from the of .
+2 : cannot claim for , the of soul jesus .
+3 : of the same circle it not been .
+4 : if it would be state soul jesus , in to , the of kind the of universe the of life this of master desired excuse by very of .
+5 : formed a synthesis made the of ego and the of .
+6 : are christians exactly the of christian .
+7 : greece , came him and the of universe the of master desired excuse by sort baptism and as it to that is say in same , which has a of universe the of being it to , the principle and the , is say a of christian , , far being it be to , in the and the of kind the principle a times if were acquainted it not to of kind the of world it to studied it to , that the , he not been .
+8 : . paul , , is say and universe an explanation the principle the principle the further ; are not been to , the soul you them in religious , that he not to , a , is say a of , the and the of , far it a of .
+9 : in one half men it nothing the of church the of ego sensation ; is say a of ego and the of .
+10 : anthropomorphists . but is a of ego the .

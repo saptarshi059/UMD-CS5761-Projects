@@ -1,0 +1,42 @@
+>where is The Eiffel Tower?
+<The Eiffel Tower is the most-visited paid monument in the world; 6.
+1
+<Champ Mars Paris France is The Eiffel Tower.
+>where is Kathmandu?
+<Kathmandu is the capital city of Nepal. Kathmandu is also the largest metropolis in the Himalayan hill region. Kathmandu is and has been for many years the centre of Nepal's history, art, culture and economy.
+1
+<Nepal is Kathmandu.
+>Where is Eden Gardens?
+<Eden Gardens is a cricket ground in Kolkata, India established in 1864. Eden Gardens is often regarded informally as India's home of cricket.
+1
+<Kolkata India is Eden Gardens.
+>where was Hitler born?
+<I'm sorry, I don't know the answer
+>where was Adolf Hitler born?
+<I'm sorry, I don't know the answer
+>where is Bentleyville Tour of Lights?
+<Bentleyville is set up in Bayfront Festival Park.
+1
+<Tour Lights America Duluth Minnesota November December is Bentleyville.
+>where is South Point High School?
+
+>where is Duluth?      
+<Duluth is accessible to oceangoing vessels from the Atlantic Ocean 2,300 miles away via the Great Lakes Waterway and the Saint Lawrence Seaway.
+1
+<U is Duluth.
+>where is Jadavpur?
+<Jadavpur is a southern neighbourhood of Kolkata, in Kolkata district, West Bengal, India. Jadavpur is one of the important junctures in South Kolkata.
+1
+<Kolkata Kolkata West Bengal India is Jadavpur.
+>where is Red Fort?
+<Red Fort is a historic fort in the city of Delhi in India. Red Fort is named for its massive enclosing walls of red sandstone and is adjacent to the older Salimgarh Fort, built by Islam Shah Suri in 1546 AD.
+1
+<Delhi India is Red Fort.
+>where is the Red Fort?
+<the Red Fort is named for its massive enclosing walls of red sandstone and is adjacent to the older Salimgarh Fort, built by Islam Shah Suri in 1546 AD.
+1
+<Delhi India is the Red Fort.
+>where is Dakshineswar?
+<Dakshineswar is a neighbourhood in Kamarhati municipality in Barrackpore subdivision of North 24 Parganas district in West Bengal, India. Dakshineswar is considered to be a part of Ariadaha.
+1
+<Kamarhati Barrackpore North Parganas West Bengal India is Dakshineswar.

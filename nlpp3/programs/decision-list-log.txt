@@ -1,0 +1,121 @@
+Script started on Wed Oct 24 12:14:25 2018
+bash-3.2$ python decision-list-train.py sentiment-train.txt > sentiment-decision 
+-list.txt
+bash-3.2$ head -50 sentiment-decision-list.txt
+('so bad', 0.8450980400142568, 0)
+('waste of', 0.8450980400142568, 0)
+('awful', 0.8166095022028192, 0)
+('super', 0.8129133566428556, 1)
+('painfully', 0.7112044607530305, 0)
+('dull', 0.6092385759550858, 0)
+('worst', 0.5829249808877014, 0)
+('love it', 0.47712125471966244, 1)
+('brilliant', 0.40248763642275825, 1)
+('my god', 0.3979400086720376, 1)
+('wonderful', 0.3357921019231931, 1)
+('remarkable', 0.3010299956639812, 1)
+('disappoint', 0.3010299956639812, 0)
+('fast forward', 0.3010299956639812, 0)
+('must see', 0.3010299956639812, 1)
+('bad', 0.281349856002728, 0)
+('not even', 0.25272531608942617, 0)
+('beautiful', 0.24629120608401625, 1)
+('kick', 0.23408320603336796, 1)
+('very good', 0.21307482530885122, 1)
+('still', 0.14987197681211267, 1)
+('kill', 0.13525500508427613, 0)
+('?', 0.1329343420255315, 0)
+('believe me', 0.12493873660829993, 0)
+('!', 0.12299558132229785, 0)
+('poor', 0.12240640009290486, 0)
+('love', 0.1202508555116475, 1)
+('.', 0.0014647382582737313, 1)
+bash-3.2$ python decision-list-test.py sentiment-decision-list.txt sentiment-tes 
+t.txt > sentiment-system-answers.txt
+bash-3.2$ head -50 sentiment-system-answers.txt
+('cv666_tok-13320.txt', 1)
+('cv535_tok-19937.txt', 0)
+('cv245_tok-19462.txt', 1)
+('cv561_tok-26915.txt', 0)
+('cv329_tok-17076.txt', 0)
+('cv235_tok-11172.txt', 1)
+('cv634_tok-28807.txt', 1)
+('cv236_tok-23452.txt', 0)
+('cv415_tok-28738.txt', 1)
+('cv204_tok-10080.txt', 1)
+('cv501_tok-19704.txt', 0)
+('cv343_tok-12145.txt', 1)
+('cv675_tok-11864.txt', 1)
+('cv698_tok-20916.txt', 1)
+('cv652_tok-15868.txt', 0)
+('cv209_tok-16563.txt', 0)
+('cv028_tok-22015.txt', 0)
+('cv545_tok-17354.txt', 0)
+('cv045_tok-13307.txt', 0)
+('cv639_tok-19221.txt', 1)
+('cv570_tok-29633.txt', 0)
+('cv557_tok-4659.txt', 1)
+('cv392_tok-5009.txt', 1)
+('cv416_tok-29439.txt', 1)
+('cv297_tok-5627.txt', 1)
+('cv214_tok-11934.txt', 0)
+('cv370_tok-14513.txt', 1)
+('cv572_tok-19175.txt', 1)
+('cv266_tok-5311.txt', 0)
+('cv286_tok-19487.txt', 0)
+('cv124_tok-29590.txt', 0)
+('cv299_tok-19259.txt', 1)
+('cv351_tok-23113.txt', 0)
+('cv296_tok-11353.txt', 0)
+('cv313_tok-29411.txt', 0)
+('cv588_tok-10492.txt', 1)
+('cv367_tok-12969.txt', 1)
+('cv352_tok-15970.txt', 0)
+('cv570_tok-15965.txt', 0)
+('cv196_tok-19220.txt', 0)
+('cv425_tok-8417.txt', 1)
+('cv158_tok-6654.txt', 0)
+('cv075_tok-18185.txt', 1)
+('cv321_tok-29280.txt', 0)
+('cv062_tok-12406.txt', 0)
+('cv253_tok-19526.txt', 0)
+('cv542_tok-29423.txt', 0)
+('cv603_tok-18542.txt', 1)
+('cv278_tok-16095.txt', 0)
+('cv655_tok-17267.txt', 1)
+bash-3.2$ python decision-list-eval.py sentiment-gold.txt sentiment-system-answe 
+rs.txt
+Classification Accuracy =  71.5 %
+
+Confusion Matirix:
+
+ TN = 80  FN = 20 
+
+ FP = 37  TP = 63 
+
+REFERENCE:
+
+TN = True Negative (How many negative reviews did the system correctly classify as negative)
+
+FN = False Negative (How many negative reviews did the system incorrectly classify as positive)
+
+FP = False Positive (How many positive reviews did the system incorrectly classify as negative)
+
+TP = True Positive (How many positive reviews did the system correctly classify as positive)
+
+Precision_Negative =  80.0 % 
+
+Recall_Negative =  68.38 % 
+
+F1_Negative =  73.73 % 
+
+Precision_Positive =  63.0 % 
+
+Recall_Positive =  75.9 % 
+
+F1_Positive =  68.85 % 
+
+bash-3.2$ exit
+exit
+
+Script done on Wed Oct 24 12:16:01 2018
